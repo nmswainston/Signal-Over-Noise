@@ -12,7 +12,7 @@ Signal Over Noise filters, prioritizes, and curates information streams so you o
 
 ## Screenshots
 
-> *Add 2–4 screenshots here*
+<!-- Add 2–4 screenshots of the app here -->
 
 ## Tech Stack
 
@@ -26,7 +26,6 @@ Signal Over Noise filters, prioritizes, and curates information streams so you o
 - Content filtering and prioritization engine
 - Clean reading interface that reduces visual noise
 - Fast client-side rendering with Vite
-- Project documentation in `docs/`
 - Netlify deployment
 
 ## Installation
