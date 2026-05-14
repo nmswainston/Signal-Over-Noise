@@ -1,55 +1,52 @@
 # Signal Over Noise
 
-Cut through the noise — a curated content or feed filtering tool.
+Cut through the noise — a tool for surfacing what actually matters in an information stream.
 
-## Overview
+## Problem
 
-Signal Over Noise is a tool for surfacing what actually matters. It filters, prioritizes, or curates content (feeds, notifications, information streams) so you only see the signal, not the noise. Built as a fast, client-side TypeScript app with a docs-first approach.
+Information overload is a real productivity problem. Feeds, notifications, and content streams are full of noise that buries the few things that are actually worth your attention.
+
+## Solution
+
+Signal Over Noise filters, prioritizes, and curates information streams so you only see the signal. Built as a fast TypeScript app with a focus on clarity and speed.
+
+## Screenshots
+
+> *Add 2–4 screenshots here*
 
 ## Tech Stack
 
 - TypeScript
 - Vite
 - Tailwind CSS
-- Netlify (deployment)
+- Netlify
 
-## Getting Started
+## Features
 
-### Prerequisites
+- Content filtering and prioritization engine
+- Clean reading interface that reduces visual noise
+- Fast client-side rendering with Vite
+- Project documentation in `docs/`
+- Netlify deployment
 
-- Node.js 18+
-- npm
-
-### Installation
+## Installation
 
 ```bash
 npm install
-```
-
-### Development
-
-```bash
 npm run dev
 ```
 
-### Build
+## Lessons Learned
 
-```bash
-npm run build
-```
+- Filtering is as much a design problem as an engineering one — deciding what to hide requires strong opinions
+- Fast, focused tools work best when they have a single, clear job
+- Good information architecture is invisible — users should feel relief, not see mechanics
 
-## Project Structure
+## Future Improvements
 
-```
-src/         # Application logic and UI
-public/      # Static assets
-docs/        # Project documentation
-scripts/     # Build and utility scripts
-```
-
-## Deployment
-
-Deployed to Netlify automatically on push to `main`. See `netlify.toml` for configuration.
+- RSS and newsletter feed integration
+- AI-powered relevance scoring
+- User-defined filtering rules
 
 ---
 
